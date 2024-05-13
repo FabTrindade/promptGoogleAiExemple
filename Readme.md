@@ -26,4 +26,5 @@ apiKey = Your MAPS API Key
 While executing APP, it will displayed on screen two different images. On tesxt prompt, it can type a question for Generative AI. Click on the button and wait the response. 
 
 ### Images with example questions
-![image](https://github.com/FabTrindade/promptGoogleAiExemple/assets/96549725/23a0170c-6ae2-429f-b31c-0590e17860fd) ![image](https://github.com/FabTrindade/promptGoogleAiExemple/assets/96549725/38584f44-2db8-4406-ad8c-3f07a1cc8484)
+![image](https://github.com/FabTrindade/promptGoogleAiExemple/assets/96549725/fa727bf8-a0cb-41ed-9819-f3beaa893032) ![image](https://github.com/FabTrindade/promptGoogleAiExemple/assets/96549725/050ba9cd-2049-47ff-bc6d-4da8ecb74677)
+
