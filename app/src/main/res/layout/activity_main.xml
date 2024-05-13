@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:padding="4dp"
+        android:src="@drawable/image0"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:padding="4dp"
+        android:layout_height="120dp"
+        android:src="@drawable/image1"
+        />
+
+    <EditText
+        android:id="@+id/ask_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+
+        android:textSize="14dp"
+        android:hint="Faça aqui uma pergunta a respeito das imagens acima,
+        clique em enviar e aguarde gerar a resposta."
+        />
+    <Button
+        android:id="@+id/send_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_700"
+        android:text="Enviar"/>
+    <TextView
+        android:id="@+id/ask_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pergunta:"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/ask_show_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+    <TextView
+        android:id="@+id/answer_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resposta:"
+        android:textStyle="bold"
+        />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="30dp">
+
+        <TextView
+            android:id="@+id/answer_show_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            />
+    </ScrollView>
+
+</LinearLayout>
